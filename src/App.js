@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Good from './components/Good';
 import Data from './Data';
+import Contry from './components/container/Contry';
+
 
 //1 st task
 
@@ -156,6 +158,7 @@ function App() {
       </table>
       <Good />
       <Data />
+      <Contry />
     </div>
 
   );
