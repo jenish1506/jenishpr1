@@ -11,6 +11,3 @@ class Good extends Component {
 }
 
 export default Good;
-
-git config --global user.email "you@example.com"
-git config --global user.name "jenish"
