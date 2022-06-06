@@ -11,7 +11,7 @@ class Contry extends Component {
     }
     changeCountry = () => {
 
-        this.setstate({
+        this.setState({
             countryName : 'us'
         });
     }
@@ -20,7 +20,7 @@ class Contry extends Component {
             <div>
                 <p>{
                     this.state.countryName}</p>
-                    <button onClick={() => this.changeCountry ()}>changeCountry</button>
+                    <button onClick={() => this.changeCountry()}>changeCountry</button>
 
             </div>
         );
