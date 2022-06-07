@@ -151,7 +151,7 @@ function App() {
           <td>total expences</td>
         </tr>
       {
-        Employ.map((e, i) => {
+        Employ.map((e, i) => {npm start
           let { name, age, salary, bonus, status} = e
           return (
             <tr key={i}>
