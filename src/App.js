@@ -8,6 +8,7 @@ import City from './components/container/City';
 import Cityfun from './components/container/Cityfun';
 import Time from './components/container/Time';
 import Timefun from './components/container/Timefun';
+import Counter from './components/container/Counter';
 
 //2nd task
 
@@ -175,6 +176,7 @@ function App() {
     {/* <Cityfun/> */}
     {/* <Time/> */}
     <Timefun/>
+    <Counter />
       </div>
       
   );
